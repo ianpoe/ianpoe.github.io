@@ -6,85 +6,32 @@
 	<br/>
 	<a href="school-tabs">set number of school tabs</a>
 	<script>
-		function change(a) {
-			document.getElementById("change").innerHTML = a;
-		}
-		r = Math.floor(Math.random() * 25) + 1;
-		if (r == 1) {
-			change("goofy why have you not planted the BOMB");
-		}
-		if (r == 2) {
-			change("SCP-420-J has breached containment");
-		}
-		if (r == 3) {
-			change("What would you do if there was a child right in front of you?");
-		}
-		if (r == 4) {
-			change("AYBHFJVAEGBFUHYSBACUYFVAUYHSBFAS");
-		}
-		if (r == 5) {
-			change("sksksksksksk AND I OOP sksksksksksksk");
-		}
-		if (r == 6) {
-			change("your mother was a hamster and your father smelt of elderberries");
-		}
-		if (r == 7) {
-			change("VSauce, Michael here. I've escaped my confinement.");
-		}
-		if (r == 8) {
-			change("Gerber Life® is accepting applications for their affordable grow up plan! The grow up plan gives your child");
-		}
-		if (r == 9) {
-			change("This pleases the nut.");
-		}
-		if (r == 10) {
-			change("when you say \"i wanna die\" and all your friends say \"same\"");
-		}
-		if (r == 11) {
-			change("height limit for building is 256 blocks");
-		}
-		if (r == 12) {
-			change("gibe de pusi b0ss");
-		}
-		if (r == 13) {
-			change("*chuckles* you're in danger");
-		}
-		if (r == 14) {
-			change("sans singing rap god by eminem be like");
-		}
-		if (r == 15) {
-			change("ZOO-WEE MAMA!");
-		}
-		if (r == 16) {
-			change("uranium-235 be like *radiation noises*");
-		}
-		if (r == 17) {
-			change("on the outside i skrrt skrrt but on the inside i hurt hurt");
-		}
-		if (r == 18) {
-			change("here, some choccy milk. because your epic");
-		}
-		if (r == 19) {
-			change("place your item in the bagging area");
-		}
-		if (r == 20) {
-			change("wouldn't it be funny if pee was yellow instead of red?");
-		}
-		if (r == 21) {
-			change("send toe pics");
-		}
-		if (r == 22) {
-			change("oh im sorry your grandma passed, do you like my biceps haha");
-		}
-		if (r == 23) {
-			change("let me speak with your manager");
-		}
-		if (r == 24) {
-			change("gamers are the most oppressed minority");
-		}
-		if (r == 25) {
-			change("clap dem alien cheeks");
-		}
+		memelist = ["goofy why have you not planted the BOMB",
+			    "SCP-420-J has breached containment",
+			    "What would you do if there was a child right in front of you?",
+			    "AYBHFJVAEGBFUHYSBACUYFVAUYHSBFAS",
+			    "sksksksksksk AND I OOP sksksksksksksk",
+			    "your mother was a hamster and your father smelt of elderberries",
+			    "VSauce, Michael here. I've escaped my confinement.",
+			    "Gerber Life® is accepting applications for their affordable grow up plan! The grow up plan gives your child"
+			    "This pleases the nut.",
+			    "when you say \"i wanna die\" and all your friends say \"same\""
+			    "height limit for building is 256 blocks",
+			    "gibe de pusi b0ss",
+			    "*chuckles* you're in danger",
+			    "sans singing rap god by eminem be like",
+			    "ZOO-WEE MAMA!",
+			    "uranium-235 be like *radiation noises*",
+			    "on the outside i skrrt skrrt but on the inside i hurt hurt",
+			    "here, some choccy milk. because your epic",
+			    "place your item in the bagging area",
+			    "wouldn't it be funny if pee was yellow instead of red",
+			    "send toe pics",
+			    "oh im sorry your grandma passed, do you like my biceps haha",
+			    "let me speak with your manager",
+			    "gamers are the most oppressed minority",
+			    "clap dem alien cheeks"]
+		document.getElementById("change").innerHTML = memelist[Math.floor(Math.random() * 25)];
 	</script>
 </body>
 </html>
