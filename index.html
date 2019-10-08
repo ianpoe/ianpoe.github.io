@@ -1,9 +1,32 @@
 <!DOCTYPE html>
 <html>
 <body>
+	<h1 id="change">sample text</h1>
+	<a href="infinite-tabs">infinite tabs</a>
+	<br/>
+	<a href="school-tabs">set number of school tabs</a>
 	<script>
-		while(true) {
-			window.open("https://ianpoe.github.io")
+		function change(a) {
+			document.getElementById("change").innerHTML = a;
+		}
+		r = Math.floor(Math.random() * 6) + 1;
+		if (r == 1) {
+			change("goofy why have you not planted the BOMB");
+		}
+		if (r == 2) {
+			change("SCP-420-J has breached containment");
+		}
+		if (r == 3) {
+			change("What would you do if there was a child right in front of you?");
+		}
+		if (r == 4) {
+			change("AYBHFJVAEGBFUHYSBACUYFVAUYHSBFAS");
+		}
+		if (r == 5) {
+			change("sksksksksksk AND I OOP sksksksksksksk");
+		}
+		if (r == 6) {
+			change("your mother was a hamster and your father smelt of elderberries");
 		}
 	</script>
 </body>
