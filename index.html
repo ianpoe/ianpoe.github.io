@@ -6,24 +6,27 @@
 	<br/>
 	<a href="school-tabs">set number of school tabs</a>
 	<script>
+		function change(a) {
+			document.getElementById("change").innerHTML = a;
+		}
 		r = Math.floor(Math.random() * 6) + 1;
 		if (r == 1) {
-			document.getElementById("change").innerHTML = "goofy why have you not planted the BOMB";
+			change("goofy why have you not planted the BOMB");
 		}
 		if (r == 2) {
-			document.getElementById("change").innerHTML = "SCP-420-J has breached containment";
+			change("SCP-420-J has breached containment");
 		}
 		if (r == 3) {
-			document.getElementById("change").innerHTML = "What would you do if there was a child right in front of you?";
+			change("What would you do if there was a child right in front of you?);
 		}
 		if (r == 4) {
-			document.getElementById("change").innerHTML = "AYBHFJVAEGBFUHYSBACUYFVAUYHSBFAS";
+			change("AYBHFJVAEGBFUHYSBACUYFVAUYHSBFAS");
 		}
 		if (r == 5) {
-			document.getElementById("change").innerHTML = "sksksksksksk AND I OOP sksksksksksksk";
+			change("sksksksksksk AND I OOP sksksksksksksk");
 		}
 		if (r == 6) {
-			document.getElementById("change").innerHTML = "your mother was a hamster and your father smelt of elderberries";
+			change("your mother was a hamster and your father smelt of elderberries");
 		}
 	</script>
 </body>
